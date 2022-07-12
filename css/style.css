@@ -1,0 +1,107 @@
+/* CSS reset  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility classes  */
+.container{
+    width: 80%;
+    margin: 0 auto  !important;
+}
+
+/* banner part start here  */
+.banner-part{
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../image/cow1.png);
+    /* background-image: linear-gradient(to left, black, transparent, ), url(..//image/cow1.png); */
+    /* opacity: 0.7; */
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 53px;
+    margin-bottom: 30px;
+}
+.banner-text{
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+.donate-btn{
+    padding: 12px 25px;
+    background-color: #ef233c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+}
+/* banner part end here  */
+
+
+/* Lives start here  */
+.lives{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    
+}
+.image-part{
+    width: 50%;
+}
+.text-part{
+    width: 50%;
+}
+.lives-heading{
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+}
+.live-text-1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.live-text-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+.explore-btn{
+    padding: 12px 25px;
+    background-color: #ef233c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.img{
+    position: relative;
+}
+.fa-solid {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: white;
+    background: #ff000087;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 35px;
+    cursor: pointer;
+}
+/* Lives part end here  */
