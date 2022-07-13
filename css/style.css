@@ -275,4 +275,20 @@ border-radius: 13px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
+  .hand-charity{
+    margin-bottom: 120px;
+  }
 /* Hand of charity section end  here  */
+/* footer part start here  */
+.footer-heading{
+    text-align: center;
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-text{
+    text-align: center;
+    color: #707070;
+}
+/* footer part end here  */
