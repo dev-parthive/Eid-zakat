@@ -225,3 +225,54 @@
 border-radius: 13px;
 }
 /* Image gallery end here  */
+/* Hand of charity section start here  */
+.charity-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .charity-text {
+    text-align: center;
+    font-size: 20px;
+    /*! font-weight: 600; */
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 50px;
+  }
+  .gallery-wraper{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .charity-card{
+    /* border: 1px solid black; */
+    border: 1px solid gray;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 30%;
+  }
+  .charity-img img{
+    width: 100%;
+  }
+  .charity-description{
+    padding: 20px;
+  }
+  .charity-card-heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .charity-card-text{
+    color: #707070;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  .donate-for-zakat{
+    color: #ef233c;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+/* Hand of charity section end  here  */
