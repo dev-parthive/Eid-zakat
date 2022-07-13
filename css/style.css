@@ -202,3 +202,26 @@
   }
 
 /* Thier life depend on your donation end here  */
+/* Image gallery start here  */
+
+.image-wraper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.image-card{
+    width: 30%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.image-card:nth-child(3){
+   margin-right: 0px !important;
+}
+.image-card img{
+    width: 100%;
+}
+.second-img img{
+    height: 393px;
+border-radius: 13px;
+}
+/* Image gallery end here  */
