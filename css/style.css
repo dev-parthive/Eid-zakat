@@ -3,12 +3,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Utility classes  */
 .container{
     width: 80%;
-    margin: 0 auto  !important;
+    margin: 0 auto;
 }
 
 /* banner part start here  */
@@ -93,7 +94,7 @@
 .img{
     position: relative;
 }
-.fa-solid {
+.fa-circle-play {
     position: absolute;
     top: 50%;
     left: 32%;
@@ -147,3 +148,57 @@
     height: 550px;
 }
 /* They need us section end here  */
+
+/* Thier life depend on your donation start here  */
+.lives-heading2{
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.lives-text2{
+    line-height: 1.5;
+    font-size: 19px;
+    text-align: center;
+    color: #707070;
+    padding-bottom: 30px;
+}
+.help-wraper-1{
+    display: flex;
+}
+.help-card{
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    background-color: #fef4f5;
+    padding: 30px;
+    border-radius: 10px;
+}
+.help-card:nth-child(2){
+    margin-right: 0px !important;
+}
+.icon {
+    font-size: 35px;
+    color: #ff6347d6;
+    margin-right: 52px;
+  }
+  .help-hading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .help-pera {
+    font-size: 20px;
+    /*! font-weight: 600; */
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+  }
+  #help-wraper-2{
+    margin-top: 30px;
+  }
+  .their-lives {
+    margin-bottom: 100px;
+  }
+
+/* Thier life depend on your donation end here  */
