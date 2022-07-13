@@ -54,7 +54,7 @@
 /* Lives start here  */
 .lives{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     display: flex;
     
 }
@@ -109,7 +109,7 @@
 /* They need us section start form here  */
 #they-need-us{
     display: flex;
-    margin-bottom: 100px !important; 
+    margin-bottom: 150px !important; 
 }
 
 .need-heading {
